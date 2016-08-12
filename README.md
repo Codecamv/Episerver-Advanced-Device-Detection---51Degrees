@@ -1,4 +1,4 @@
-![EPi](images/EpiLogo.jpg)   ![51Degrees](https://51degrees.com/DesktopModules/FiftyOne/Distributor/Logo.ashx?utm_source=github&utm_medium=repository&utm_content=home&utm_campaign=epi "THE Fastest and Most Accurate Device Detection") **Device Detection for EPi**
+![EPi](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/EpiLogo.jpg)   ![51Degrees](https://51degrees.com/DesktopModules/FiftyOne/Distributor/Logo.ashx?utm_source=github&utm_medium=repository&utm_content=home&utm_campaign=epi "THE Fastest and Most Accurate Device Detection") **Device Detection for EPi**
 
 [Supported Databases](https://51degrees.com/compare-data-options?utm_source=github&utm_medium=repository&utm_content=home-menu&utm_campaign=epi "Different device databases which can be used with 51Degrees device detection") | [.NET Developer Documention](https://51degrees.com/support/documentation/net?utm_source=github&utm_medium=repository&utm_content=home-menu&utm_campaign=epi "Full getting started guide and advanced developer documentation") | [Available Properties](https://51degrees.com/resources/property-dictionary?utm_source=github&utm_medium=repository&utm_content=home-menu&utm_campaign=epi "View all available properties and values")
 
@@ -6,25 +6,25 @@
 
 Create visitor groups for device type...
 
-![Device Type](images/DeviceType.png "EPi visitor group for different device types and classifications")
+![Device Type](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/DeviceType.png "EPi visitor group for different device types and classifications")
 
 ...and extend them with physical screen size information.
 
-![Screen Inches Diagonal](images/ScreenInchesDiagonal.png "Use range slider to create custom device groupings")
+![Screen Inches Diagonal](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/ScreenInchesDiagonal.png "Use range slider to create custom device groupings")
 
 Access device capabilities not available via feature detection including embedded support for telephone calls and text messages.
 
-![Supports Phone Calls](images/SupportsPhoneCalls.png "Enable features such as telephone call to action")
+![Supports Phone Calls](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/SupportsPhoneCalls.png "Enable features such as telephone call to action")
 
 Combine with other criteria to create groups that become enabled when your call center is open, telephone calls are supported and the user is in the same time zone.
 
-![Time of Day](images/TimeOfDay.png "Group enables during specific hours, location and device feature")
+![Time of Day](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/TimeOfDay.png "Group enables during specific hours, location and device feature")
 
 Use the new visitor group to promote a prominent call to action and start talking to valuable customers.
 
 Access all 51Degrees properties in one place.
 
-![All Properties](images/HasTrackPad.png "All 51Degrees properties are available")
+![All Properties](https://raw.githubusercontent.com/egandalf/Episerver-Advanced-Device-Detection---51Degrees/develop/images/HasTrackPad.png "All 51Degrees properties are available")
 
 ---
 
