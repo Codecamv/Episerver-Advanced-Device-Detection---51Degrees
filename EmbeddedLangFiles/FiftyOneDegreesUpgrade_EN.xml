@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+	<language
+		name="English"
+		id="en">
+		<fiftyonedegrees>
+			<upgrade>
+				<button>Upgrade Required</button>
+				<ismobile>
+					<title>Enable Is Mobile with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-IsMobile&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</ismobile>
+				<istablet>
+					<title>Enable Is Tablet with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-IsTablet&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</istablet>
+				<devicetype>
+					<title>Enable Device Type with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-DeviceType&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</devicetype>
+				<layoutengine>
+					<title>Enable Layout Engine with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-LayoutEngine&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</layoutengine>
+				<hastouchscreen>
+					<title>Enable Has Touch Screen with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-HasTouchScreen&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</hastouchscreen>
+				<screeninchesdiagonal>
+					<title>Enable Screen Inches Diagonal with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenInchesDiagonal&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screeninchesdiagonal>
+				<screeninchesdiagonalrounded>
+					<title>Enable Screen Inches Diagonal Rounded with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenInchesDiagonalRounded&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screeninchesdiagonalrounded>
+				<screenpixelswidth>
+					<title>Enable Screen Pixels Width with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenPixelsWidth&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screenpixelswidth>
+				<hardwarevendor>
+					<title>Enable Hardware Vendor with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-HardwareVendor&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</hardwarevendor>
+				<browservendor>
+					<title>Enable Browser Vendor with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-BrowserVendor&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</browservendor>
+				<browserversion>
+					<title>Enable Browser Version with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-BrowserVersion&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</browserversion>
+				<browsername>
+					<title>Enable Browser Name with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-BrowserName&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</browsername>
+				<platformvendor>
+					<title>Enable Platform Vendor with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-PlatformVendor&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</platformvendor>
+				<platformversion>
+					<title>Enable Platform Version with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-PlatformVersion&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</platformversion>
+				<platformname>
+					<title>Enable Platform Name with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-PlatformName&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</platformname>
+				<priceband>
+					<title>Enable Price Band with enhanced (Enterprise) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-PriceBand&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</priceband>
+				<supportedbearers>
+					<title>Enable Supported Bearers with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-SupportedBearers&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</supportedbearers>
+				<supportsphonecalls>
+					<title>Enable Supports Phone Calls with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-SupportsPhoneCalls&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</supportsphonecalls>
+				<screeninchesdiagonalrange>
+					<title>Enable Screen Inches Diagonal with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenInchesDiagonal&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screeninchesdiagonalrange>
+				<screeninchesdiagonalroundedrange>
+					<title>Enable Screen Inches Diagonal Rounded with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenInchesDiagonalRounded&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screeninchesdiagonalroundedrange>
+				<screenpixelswidthrange>
+					<title>Enable Screen Pixels Width with enhanced (Enterprise, PremiumV3) 51Degrees device data by replacing the App_Data/51Degrees.dat file.</title>
+					<url>https://51degrees.com/EPi?utm_source=EPi&amp;utm_medium=extension&amp;utm_content=configuration-ScreenPixelsWidth&amp;utm_campaign=EPi&amp;AffiliateId=X</url>
+				</screenpixelswidthrange>
+			</upgrade>
+		</fiftyonedegrees>
+	</language>
+</languages>

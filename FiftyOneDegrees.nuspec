@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://51degrees.codeplex.com/license</licenseUrl>
+    <projectUrl>https://51degrees.com/EPi</projectUrl>
+    <iconUrl>https://51degrees.com/portals/0/Logos/Square%20Logo.png?width=128</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Adds device intelligence to EPi to build visitor groups to optimise content and analytics. Features include physical screen dimensions, device type (inc. Tablet, Smartphone, TV, eReader, etc), support for SMS and telephone calls, input metohds and 100s more.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>EPiServerProtectedModulePackage Mobile Device VisitorGroup</tags>
+    <dependencies>
+      <dependency id="51Degrees.mobi" version="3.2.9" />
+      <dependency id="EPiServer.CMS.UI" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="ClientResources\**" target="content\modules\_protected\FiftyOneDegrees\ClientResources" />
+    <file src="Views\**" target="content\modules\_protected\FiftyOneDegrees\Views" />
+    <file src="module.config" target="content\modules\_protected\FiftyOneDegrees" />
+  </files>
+</package>

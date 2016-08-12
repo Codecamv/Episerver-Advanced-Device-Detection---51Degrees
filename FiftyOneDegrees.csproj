@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50182309-5E1F-41A6-A48B-26E804B93404}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FiftyOneDegrees</RootNamespace>
+    <AssemblyName>FiftyOneDegrees</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\EPiServerSite1\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.ApplicationModules, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.ApplicationModules.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Configuration, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Data, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Data.Cache, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Data.Cache.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Enterprise, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.Enterprise.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Events, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Events.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Framework, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.ImageLibrary, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.ImageLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Licensing, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Licensing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.LinkAnalyzer, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.LinkAnalyzer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Logging.Log4Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Logging.Log4Net.2.0.0\lib\net45\EPiServer.Logging.Log4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Shell, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.Framework.9.10.2\lib\net45\EPiServer.Shell.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Web.WebControls, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.Web.WebControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.XForms, Version=9.10.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EPiServer.CMS.Core.9.10.2\lib\net45\EPiServer.XForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FiftyOne.Foundation, Version=3.2.9.1, Culture=neutral, PublicKeyToken=e0b3a8da0bbce49c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\51Degrees.mobi.3.2.9.1\lib\NET40\FiftyOne.Foundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StructureMap, Version=3.1.6.186, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\structuremap-signed.3.1.6.186\lib\net40\StructureMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StructureMap.Net4, Version=3.1.6.186, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\structuremap-signed.3.1.6.186\lib\net40\StructureMap.Net4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StructureMap.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\structuremap.web-signed.3.1.6.186\lib\net40\StructureMap.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\Attributes\FiftyOneKey.cs" />
+    <Compile Include="Business\PropertySelectionFactory.cs" />
+    <Compile Include="Business\PropertyValueSelectionFactory.cs" />
+    <Compile Include="Criterion\AllProperties.cs" />
+    <Compile Include="Criterion\BrowserName.cs" />
+    <Compile Include="Criterion\BrowserVendor.cs" />
+    <Compile Include="Criterion\BrowserVersion.cs" />
+    <Compile Include="Criterion\DeviceType.cs" />
+    <Compile Include="Criterion\RangeCriterionBase.cs" />
+    <Compile Include="Criterion\HardwareVendor.cs" />
+    <Compile Include="Criterion\HasTouchScreen.cs" />
+    <Compile Include="Criterion\IsMobile.cs" />
+    <Compile Include="Criterion\IsTablet.cs" />
+    <Compile Include="Criterion\LayoutEngine.cs" />
+    <Compile Include="Criterion\ScreenInchesDiagonalRange.cs" />
+    <Compile Include="Criterion\ScreenInchesDiagonalRoundedRange.cs" />
+    <Compile Include="Criterion\ScreenPixelsWidthRange.cs" />
+    <Compile Include="Criterion\AllPropertiesCriterionBase.cs" />
+    <Compile Include="Criterion\VersionCriterionBase.cs" />
+    <Compile Include="Criterion\PlatformName.cs" />
+    <Compile Include="Criterion\PlatformVendor.cs" />
+    <Compile Include="Criterion\PlatformVersion.cs" />
+    <Compile Include="Criterion\PriceBand.cs" />
+    <Compile Include="Criterion\ScreenInchesDiagonal.cs" />
+    <Compile Include="Criterion\ScreenInchesDiagonalRounded.cs" />
+    <Compile Include="Criterion\ScreenPixelsWidth.cs" />
+    <Compile Include="Criterion\SupportedBearers.cs" />
+    <Compile Include="Criterion\SupportsPhoneCalls.cs" />
+    <Compile Include="Enums\RangeValueCondition.cs" />
+    <Compile Include="Enums\VersionValueCondition.cs" />
+    <Compile Include="Enums\SupportedBearers.cs" />
+    <Compile Include="Helpers\View.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\StringCriterionController.cs" />
+    <Compile Include="Criterion\BooleanCriterionBase.cs" />
+    <Compile Include="Criterion\NumericCriterionBase.cs" />
+    <Compile Include="Criterion\StringCriterionBase.cs" />
+    <Compile Include="Criterion\EnumCriterionBase.cs" />
+    <Compile Include="Enums\DeviceType.cs" />
+    <Compile Include="Enums\BooleanValueCondition.cs" />
+    <Compile Include="Enums\NumericValueCondition.cs" />
+    <Compile Include="Enums\PriceBand.cs" />
+    <Compile Include="Enums\ScreenInchesDiagonalRounded.cs" />
+    <Compile Include="Enums\StringValueCondition.cs" />
+    <Compile Include="Enums\EnumValueCondition.cs" />
+    <Compile Include="Enums\FeatureSupport.cs" />
+    <Compile Include="Enums\FeatureSupportCondition.cs" />
+    <Compile Include="Enums\LayoutEngine.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Models\AllProperties.cs" />
+    <Compile Include="Models\BooleanModel.cs" />
+    <Compile Include="Models\BrowserName.cs" />
+    <Compile Include="Models\BrowserVendor.cs" />
+    <Compile Include="Models\BrowserVersion.cs" />
+    <Compile Include="Models\DeviceType.cs" />
+    <Compile Include="Models\NumericModelBase.cs" />
+    <Compile Include="Models\RangeModel.cs" />
+    <Compile Include="Models\HardwareVendor.cs" />
+    <Compile Include="Models\HasTouchScreen.cs" />
+    <Compile Include="Models\IsMobile.cs" />
+    <Compile Include="Models\IsTablet.cs" />
+    <Compile Include="Models\LayoutEngine.cs" />
+    <Compile Include="Models\ScreenInchesDiagonalRange.cs" />
+    <Compile Include="Models\ScreenInchesDiagonalRoundedRange.cs" />
+    <Compile Include="Models\ScreenPixelsWidthRange.cs" />
+    <Compile Include="Models\VersionModel.cs" />
+    <Compile Include="Models\NumericModel.cs" />
+    <Compile Include="Models\PlatformName.cs" />
+    <Compile Include="Models\PlatformVendor.cs" />
+    <Compile Include="Models\PlatformVersion.cs" />
+    <Compile Include="Models\PriceBand.cs" />
+    <Compile Include="Models\ScreenInchesDiagonal.cs" />
+    <Compile Include="Models\ScreenInchesDiagonalRounded.cs" />
+    <Compile Include="Models\ScreenPixelsWidth.cs" />
+    <Compile Include="Models\StringModel.cs" />
+    <Compile Include="Models\EnumModel.cs" />
+    <Compile Include="Models\SupportedBearers.cs" />
+    <Compile Include="Models\SupportsPhoneCalls.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FiftyOneDegrees.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="module.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClientResources\Criteria\StringCriterion.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientResources\Scripts\" />
+    <Folder Include="Packages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedLangFiles\FiftyOneDegreesUpgrade_EN.xml" />
+    <EmbeddedResource Include="EmbeddedLangFiles\FiftyOneDegrees_EN.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientResources\Criteria\NumberTextBox.js" />
+    <Content Include="ClientResources\Criteria\RangeCriterion.js" />
+    <None Include="ClientResources\Criteria\AllPropertiesCriterion.js" />
+    <Content Include="Readme.txt" />
+    <None Include="Views\Shared\EditorTemplates\AllProperties.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <Content Include="Views\Shared\EditorTemplates\ScreenInchesDiagonalRange.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Views\Shared\EditorTemplates\ScreenInchesDiagonalRoundedRange.ascx" />
+    <Content Include="Views\Shared\EditorTemplates\ScreenPixelsWidthRange.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Views\Shared\EditorTemplates\BrowserName.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Views\Shared\EditorTemplates\BrowserVendor.ascx" />
+    <None Include="Views\Shared\EditorTemplates\BrowserVersion.ascx" />
+    <None Include="Views\Shared\EditorTemplates\DeviceType.ascx" />
+    <None Include="Views\Shared\EditorTemplates\HardwareVendor.ascx" />
+    <None Include="Views\Shared\EditorTemplates\HasTouchScreen.ascx" />
+    <None Include="Views\Shared\EditorTemplates\IsMobile.ascx" />
+    <None Include="Views\Shared\EditorTemplates\IsTablet.ascx" />
+    <None Include="Views\Shared\EditorTemplates\LayoutEngine.ascx" />
+    <None Include="Views\Shared\EditorTemplates\PlatformName.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Views\Shared\EditorTemplates\PlatformVendor.ascx" />
+    <None Include="Views\Shared\EditorTemplates\PlatformVersion.ascx" />
+    <None Include="Views\Shared\EditorTemplates\PriceBand.ascx" />
+    <None Include="Views\Shared\EditorTemplates\ScreenInchesDiagonal.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Views\Shared\EditorTemplates\ScreenInchesDiagonalRounded.ascx" />
+    <None Include="Views\Shared\EditorTemplates\ScreenPixelsWidth.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Views\Shared\EditorTemplates\SupportedBearers.ascx" />
+    <None Include="Views\Shared\EditorTemplates\SupportsPhoneCalls.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>start xcopy /Y "$(ProjectDir)App_Data\51Degrees.dat" "$(SolutionDir)App_Data\"
+start xcopy /Y "$(ProjectDir)51Degrees.config" "$(SolutionDir)"
+"$(SolutionDir).nuget\Nuget.exe" pack "$(ProjectDir)$(ProjectName).csproj"  -OutputDirectory "$(ProjectDir)/Packages" -Prop Configuration=Release</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
